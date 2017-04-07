@@ -1,0 +1,15 @@
+# Checkpoint 3 Assignment.
+
+
+## `relative` vs `absolute`
+
+`relative` positioning is based on and adjusts to the default static placement of other objects'.
+
+`absolute` positioning ignores other objects and stays at its position relative to the page no matter what.
+
+
+##`box-sizing: content-box` vs `box-sizing: border-box`
+
+`content-box` increases the size of the box when adding padding and border.
+
+`border-box` keeps the size of the box the same while adding padding and border.
