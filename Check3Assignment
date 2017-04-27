@@ -8,7 +8,7 @@
 `absolute` positioning ignores other objects and stays at its position relative to the page no matter what.
 
 
-##`box-sizing: content-box` vs `box-sizing: border-box`
+## `box-sizing: content-box` vs `box-sizing: border-box`
 
 `content-box` increases the size of the box when adding padding and border.
 
