@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by anonymous (http://jsbin.com/qenuvufeza/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="HTML Tables">
+  <meta charset="utf-8">
+  <title>HTML Tables</title>
+<style id="jsbin-css">
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+
+.album-view-song-list {
+    width: 90%;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+
+.album-view-header-item{
+    height: 3rem;
+}
+
+.album-header-number, .album-header-title, .album-header-duration, .album-header-count{
+  border: 2px solid black;
+  
+}
+
+.album-header-number{
+  width: 15%;
+ 
+}
+
+.album-header-title{
+  width: 25%;
+}
+
+.album-header-duration{
+  width: 15%;
+  background-color: lightgreen;
+}
+
+.album-header-count{
+  width: 15%;
+  background: gray;
+}
+
+.album-view-song-item {
+    height: 3rem;
+}
+
+.song-item-number, .song-item-duration, .song-item-title, .song-item-count{
+  border: 2px solid darkgray;
+  font-style: oblique;
+}
+
+.song-item-number {
+    width: 15%;
+}
+
+.song-item-title {
+    width: 25%;
+}
+
+.song-item-duration {
+    width: 15%;
+    background-color: lightgreen;
+}
+
+.song-item-count{
+  width: 15%;
+  background: gray;
+}
+</style>
+</head>
+<body>
+  <table class="album-view-song-list">
+    
+    <colgroup class="album-track-title-col-group" span="2" style="background-color:#00FFFF">
+    </colgroup> 
+    
+    <thead>
+      <tr class="album-view-header-item">
+          <th class="album-header-number">Track</th>
+          <th class="album-header-title">Title</th>
+          <th class="album-header-duration">Length</th>
+          <th class="album-header-count">Play Count</th>
+      </tr>
+    </thead> 
+    
+    <tbody>
+      <tr class="album-view-song-item">
+          <td class="song-item-number">1</td>
+          <td class="song-item-title">Blue</td>
+          <td class="song-item-duration">X:XX</td>
+          <td class="song-item-count">3</td>
+      </tr>
+      <tr class="album-view-song-item">
+          <td class="song-item-number">2</td>
+          <td class="song-item-title">Red</td>
+          <td class="song-item-duration">X:XX</td>
+        <td class="song-item-count">3</td>
+      </tr>
+      <tr class="album-view-song-item">
+          <td class="song-item-number">3</td>
+          <td class="song-item-title">Green</td>
+          <td class="song-item-duration">X:XX</td>
+          <td class="song-item-count">3</td>
+      </tr>
+      <tr class="album-view-song-item">
+          <td class="song-item-number">4</td>
+          <td class="song-item-title">Purple</td>
+          <td class="song-item-duration">X:XX</td>
+          <td class="song-item-count">3</td>
+      </tr>
+      <tr class="album-view-song-item">
+          <td class="song-item-number">5</td>
+          <td class="song-item-title">Black</td>
+          <td class="song-item-duration">X:XX</td>
+          <td class="song-item-count">3</td>
+      </tr>
+    </tbody>
+  
+  </table>
+</body>
+</html>
